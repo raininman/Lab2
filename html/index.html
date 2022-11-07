@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <title>Lab 2</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul id="navbar">
+          <li><a href="#palette">Краски</a></li>
+          <li><a href="#brush">Кисточки</a></li>
+          <li><a href="#glass">Карандаши</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Канцелярия для Вас и Ваших детей</h1>
+      <picture id="adaptive">
+        <source srcset="../img/Rectangle155sm.png" media="(max-width: 480px)">
+        <source srcset="../img/Rectangle155md.png" media="(max-width: 800px)">
+        <img src="../img/Rectangle155lg.png " alt="officeToolsLarge">
+      </picture>
+      <div id="kids">
+        <h2>Детские принадлежности</h2>
+        <h3>В нашем интернет-магазине вы сможете найти большой выбор детских принадлежностей.<br>
+            Большой выбор фломастеров, карандашей, тетрадей.</h3>
+      </div>
+      <div id="map">
+        <img src="../img/Rectangle161.png" usemap="#map" alt="toolsMap"/>
+            <map name="map">
+              <area shape="poly" coords="846,96,985,80,1214,543,1086,624,862,297" href="#brush" alt="brush"/>
+              <area shape="rect" coords="600,197,849,507" href="#palette" alt="palette"/>
+              <area shape="circle" coords="672,90,97" href="#glass" alt="glass"/>
+              <area shape="rect" coords="26,124,505,444" href="https://arzamas.academy/mag/927-impressionism" alt='album' target="_blank" title="12 признаков того, что перед вами импрессионистская картина" />
+            </map>
+      </div>
+      <div id="palette">
+      <img src="../img/palette.png" id="paletteVector" alt="palette">
+      <h2>Набор акварелей</h2>
+      <table>
+        <thead>
+          <tr >
+            <th>10 шт.</th>
+            <th>20 шт.</th>
+            <th>30 шт.</th>
+            <th>40 шт.</th>
+            <th>50 шт.</th>
+            <th>60 шт.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="th2">
+            <td>10 BYN</td>
+            <td> 20 BYN</td>
+            <td>30 BYN</td>
+            <td>40 BYN</td>
+            <td>50 BYN</td>
+            <td>60 BYN</td>
+          </tr>
+          <tr class="th3">
+            <td colspan="4">*Скидка 5% при покупке от 30 шт.</td>
+            <td>*6%</td>
+            <td>*7%</td>
+          </tr>
+        </tbody>
+        </table>
+      </div>
+
+      <div id="brush">
+        <object data="../img/brush.png" width="49" height="53"></object>
+        <h2>Набор кисточек</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>10 шт.</th>
+              <th>20 шт.</th>
+              <th>30 шт.</th>
+              <th>40 шт.</th>
+              <th>50 шт.</th>
+              <th>60 шт.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="th2">
+              <td>5 BYN</td>
+              <td>10 BYN</td>
+              <td>15 BYN</td>
+              <td>20 BYN</td>
+              <td>25 BYN</td>
+              <td>30 BYN</td>
+            </tr>
+          </tbody>
+          </table>
+        </div>
+
+        <div id="glass">
+          <svg width="35" height="55" viewBox="0 0 35 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H34.9L30.8117 44.5621C30.5657 47.2443 29.4142 49.7312 27.5808 51.54C25.7474 53.3488 23.3629 54.3505 20.8901 54.3506H14.0098C11.5371 54.3505 9.15259 53.3488 7.31919 51.54C5.4858 49.7312 4.33432 47.2443 4.08828 44.5621L0 0ZM6.25707 13.5877L5.50921 5.43506H29.3908L28.6429 13.5877H6.25707ZM6.75564 19.0227L9.04906 44.0213C9.17208 45.3624 9.74782 46.6058 10.6645 47.5103C11.5812 48.4147 12.7735 48.9155 14.0098 48.9155H20.8901C22.1265 48.9155 23.3188 48.4147 24.2355 47.5103C25.1522 46.6058 25.7279 45.3624 25.8509 44.0213L28.1443 19.0227H6.75564Z" fill="black"/>
+          </svg>
+          <h2>Стаканчики</h2>
+
+          <table>
+            <thead>
+              <tr>
+                <th >1 шт.</th>
+                <th >2 шт.</th>
+                <th >3 шт.</th>
+                <th >4 шт.</th>
+                <th >5 шт.</th>
+                <th >6 шт.</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="th2" >
+                <td >3 BYN</td>
+                <td >5 BYN</td>
+                <td >7 BYN</td>
+                <td >9 BYN</td>
+                <td >11 BYN</td>
+                <td >13 BYN</td>
+              </tr>
+              <tr class="th3">
+                <td colspan="2" rowspan="2">*Скидки для юридических лиц, использующих безналичный расчет</td>
+                <td>100 шт.</td>
+                <td>200 шт.</td>
+                <td colspan="2">от 300 шт.</td>
+              </tr>
+              <tr class="th3">
+                <td>5%</td>
+                <td>6%</td>
+                <td>7%</td>
+                <td>**8%</td>
+              </tr>
+            </tbody>
+            </table>
+            <p id="ref">** только для постоянных клиентов</p>
+          </div>
+    </main>
+
+    <footer>
+      <p>&#169;  БГУИР, 2022</p>
+    </footer>
+  </body>
+</html>
